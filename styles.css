@@ -38,3 +38,23 @@ body {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
+
+.order-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  font-size: large;
+  font-weight: 900;
+  letter-spacing: 0.09 rem;
+}
+
+.comment {
+  text-align: center;
+  width: 80%;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
