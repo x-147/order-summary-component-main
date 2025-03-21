@@ -154,3 +154,26 @@ body {
   justify-content: space-evenly;
   height: 100%;
 }
+
+@media (max-width: 375px) {
+  body {
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1441px) {
+  body {
+    background-image: none;
+  }
+}
+
+/* empty block, no hover styles will apply */
+@media (hover: none) {
+  .payment:hover {
+  }
+  .cancel-order:hover {
+  }
+  .change-plan:hover {
+  }
+}
