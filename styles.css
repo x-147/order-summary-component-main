@@ -103,6 +103,11 @@ body {
   text-decoration: underline;
 }
 
+.change-plan:hover {
+  cursor: pointer;
+  color: hsl(245, 75%, 65%);
+}
+
 .payment {
   width: 85%;
   background-color: hsl(245, 75%, 52%);
@@ -118,6 +123,11 @@ body {
   border: none;
 }
 
+.payment:hover {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 65%);
+}
+
 .cancel-order {
   width: 85%;
   height: 40px;
@@ -130,6 +140,11 @@ body {
   border: none;
   background: none;
   margin-top: -10px;
+}
+
+.cancel-order:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .everything-but-the-hero {
