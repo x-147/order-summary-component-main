@@ -32,31 +32,38 @@
         alt="hero"
       />
 
-      <!-- order summary -->
-      <div class="order-summary-container">
-        <div class="title">Order Summary</div>
-        <div class="comment">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </div>
-      </div>
-
-      <!-- annual plan card -->
-      <div class="annual-plan-card">
-        <div class="music-and-plan-container">
-          <img class="music" src="./images/icon-music.svg" alt="music" />
-          <div class="annual-plan-price-container">
-            <span> Annual Plan</span>
-            <span> $59.99/year</span>
+      <div class="everything-but-the-hero">
+        <!-- order summary -->
+        <div class="order-summary-container">
+          <div class="title">Order Summary</div>
+          <div class="comment">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
           </div>
         </div>
-        <div class="change-plan">Change</div>
-      </div>
 
-      <!-- payment button -->
-      <div class="payment">Proceed to Payment</div>
-      <!-- cancel order -->
-      <div class="cancel-order">Cancel Order</div>
+        <!-- annual plan card -->
+        <div class="annual-plan-card">
+          <div class="music-and-plan-container">
+            <img class="music" src="./images/icon-music.svg" alt="music" />
+            <div class="annual-plan-price-container">
+              <span> Annual Plan</span>
+              <span> $59.99/year</span>
+            </div>
+          </div>
+          <div class="change-plan">Change</div>
+        </div>
+
+        <!-- payment button -->
+        <button class="payment">Proceed to Payment</button>
+        <!-- cancel order -->
+        <button class="cancel-order">Cancel Order</button>
+      </div>
     </div>
   </body>
 </html>
+
+<!-- refactor for body to have 2 div's image and a new div -->
+<!-- which wraps rest of the elements so the gap in the new -->
+<!-- div container can be controlled -->
+<!-- also this div should have 80% width -->
