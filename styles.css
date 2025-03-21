@@ -169,6 +169,7 @@ body {
 }
 
 /* empty block, no hover styles will apply */
+/* update: todo: this doesn't work, check later */
 @media (hover: none) {
   .payment:hover {
   }
