@@ -54,7 +54,52 @@ body {
 
 .comment {
   text-align: center;
+  line-height: 1.2rem;
   width: 80%;
   font-size: 0.8rem;
   opacity: 0.5;
+}
+
+.annual-plan-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  background-color: hsl(225, 100%, 98%);
+  height: 4rem;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.music {
+  width: 35px;
+  height: 35px;
+}
+
+.annual-plan-price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-and-plan-container {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.annual-plan-price-container span:first-of-type {
+  font-size: small;
+  font-weight: 900;
+}
+
+.annual-plan-price-container span:last-of-type {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.change-plan {
+  font-size: small;
+  font-weight: 800;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
 }
